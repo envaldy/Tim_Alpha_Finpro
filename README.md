@@ -8,3 +8,4 @@ Pekerjaan yang telah dilakukan,
 
 Pekerjaan yang akan dikerjakan besok
 - EDA
+- Modeling
