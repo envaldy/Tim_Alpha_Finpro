@@ -1,4 +1,7 @@
-### BANK MARKETING CAMPAIGN
+### BANK MARKETING CAMPAIGN Tim Alpha JCDS03 Batam Final Project
+
+Nilam Ayu Rosari,
+Novaldi Halomoan
 
 Business Context:
 
@@ -22,4 +25,20 @@ Target
 
 1: Customers likely to subscribe term deposit.
 
-We will build a classification model to help the bank predict whether a customer will subscribe term deposit or not.
+We will build a classification model to help the bank predict whether a customer will subscribe term deposit or not. Metric we choose is Precision because we want to minimuze False Positive.
+
+
+In this notebook the of content will be
+
+List of contents:
+- Business Context and Problem Statement
+- Data Understanding
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Preprocessing
+- Machine Learning Modelling
+- Hyperparameter Tuning
+- Model Implementation
+- Conclusion and Reccommendation
+
+Based on Data is highly imbalance 88% class no, therefore we conducted startisfied random sampling before going to deep analysis and modelling. And from data cleaning and EDA inferential statistical test, we drop column anomaly of 'euribor3m' and statistically not significant column 'loan'. In the end, we find logistic regression model is the most optimum model. as precision after tuning for train data is 86.25% to test score as 86.27%. After modelling, we concluded that our solution will save around 48.9% marketing cost.
